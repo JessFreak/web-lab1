@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body, head {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 85%;
+    right: 0;
+}
+
+header, footer {
+    background-color: #7777ce;
+    height: 15%;
+}
+
+.header-text {
+    top: 3%;
+    text-align: right;
+}
+
+.highlighted {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer-text {
+    top: 30%;
+}
+
+.header-text, .footer-text {
+    border: solid;
+    background-color: white;
+    height: 4rem;
+    width: 15rem;
+    position: absolute;
+    margin-right: 3%;
+    right: 0;
+}
+
+.nav-bar {
+    height: 85%;
+}
+
+.right {
+    height: 70%;
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+}
+
+.right, .nav-bar {
+    background-color: aquamarine;
+    width: 15%;
+}
+
+.content {
+    height: 60%;
+    top: 15%;
+    left: 15%;
+}
+
+.content-2 {
+    height: 10%;
+    left: 15%;
+    bottom: 15%;
+}
+
+.content, .content-2 {
+    border: solid;
+    background-color: bisque;
+    width: 70%;
+    position: absolute;
+}
+
+h1 {
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 1%;
+    text-align: left;
+}
+
+h3 {
+    color: #2aa44a;
+}
+
+p {
+    font-size: 3rem;
+    line-height: 1.2;
+    color: #a633f3;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    font-size: 2.1rem;
+    display: block;
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10rem;
+}
+
+.active-tab {
+    background-color: #ff5500;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.map {
+    width: 75%;
+    height: 75%;
+}
