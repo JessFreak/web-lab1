@@ -1,5 +1,5 @@
 # web-lab1
-Mini-description of Labwork1
+Mini-description of web-lab1
 The goal of Labwork 1 was to get acquainted with the approaches of HTML and CSS and develop a mini-website with some fiches.
 
 # The personal task of Labwork1
